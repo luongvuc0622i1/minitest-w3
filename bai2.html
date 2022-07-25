@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<!--Bài 2:-->
+<!--Cho trước 1 mảng n phần tử-->
+<!--Viết hàm cho phép đếm xem có bao nhiêu phần tử a ( a được nhập vào tử bàn phím)-->
+<script>
+    function countNumber(num) {
+        let count =0;
+        for (let i=0; i < arr.length; i++) {
+            if (arr[i] ==a) {
+                count++
+            }
+        }
+        return count;
+    }
+
+    let a = +prompt("Nhập vào 1 số bất kỳ:");
+    let arr = [1,4,5,6,2,8]
+    document.write ("Số lượng phần tử " + a + " có trong mảng là: " + countNumber(a));
+
+
+</script>
+</body>
+</html>

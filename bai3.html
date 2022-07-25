@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<!--Bài 3:-->
+<!--Cho trước 1 mảng bao gồm n phần tử-->
+<!--Viết hàm tính tổng các số nguyên tố trong mảng.-->
+<script>
+  function sumPrime(arr){
+    let count = 0; // đếm số ước của số đang check
+    let isPrime = false;
+    let sum =0;
+
+      for ( let i = 1; i <= arr[i]; i++) {
+          if(arr[i] % i == 0) {
+              count += 1;
+          }
+      }
+
+      if (count ==2 ) {
+          sum += arr[i]
+      }
+  }
+
+  let arr = [1,4,5,6,2,8]
+  document.write ("Tổng của các số nguyên tố trong mảng là: " + sumPrime(arr));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<!--Bài 1:-->
+<!--Cho trước 1 mảng n phần tử-->
+<!--Viết hàm đếm in ra số lượng các số chẵn trong mảng-->
+<script>
+    function countNumber(arr) {
+        let count =0;
+        for (let i=0; i < arr.length; i++) {
+            if (arr[i] % 2 ==0) {
+                count++
+            }
+        }
+        return count;
+    }
+
+    let arr = [1,4,5,6,2,8]
+    document.write ("Số lượng các số chẵn trong mảng là: " + countNumber(arr));
+
+</script>
+</body>
+</html>
